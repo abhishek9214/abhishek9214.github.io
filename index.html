@@ -44,13 +44,10 @@
                                     <a class="navigation-items" href="#portfolio">Portfolio</a>
                                 </li>
                                 <li>
-                                    <a class="navigation-items" href="#">Experience</a>
+                                    <a class="navigation-items" style="display: none;" href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a class="navigation-items" href="#">Blog</a>
-                                </li>
-                                <li>
-                                    <a class="navigation-items" href="#">Contact</a>
+                                    <a class="navigation-items" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -104,19 +101,20 @@
             <div class="row about-me">
                 <div class="col-md-6 left">
                     <div class="section-head">
-                        who am I?
+                        Who am I?
                     </div>
                     <div class="section-highlight">
-                        I am a UX/UI Web Developer,<br>living in Bangalore, India
+                        I am a UX/UI Web Developer,
+                        <br>living in Bangalore, India
                     </div>
                     <div class="section-desc">
                         I enjoy creating simple, beautiful, intuitive designs and dynamic user experiences for complex problems.
                     </div>
                     <div class="section-desc">
-                            when I'm away from my laptop, I love sketching, cooking, traveling, playing chess &amp; doing exercises.
+                        when I'm away from my laptop, I love sketching, cooking, traveling, playing chess &amp; doing exercises.
                     </div>
                     <div class="section-desc">
-                            Sometimes dreaming too while listening to music ...
+                        Sometimes dreaming too while listening to music ...
                     </div>
                 </div>
                 <div class="col-md-6 right my-skills">
@@ -271,7 +269,66 @@
 
     <section class="portfolio" id="portfolio">
         <h1>my portfolio</h1>
+        <div class="container">
+            <div class="portfolio-head">My Personal Projects ...</div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="proj-container">
+                        <div>
+                            <img class="proj-image" src="images/proj-playWithRectangles.gif">
+                        </div>
+                        <div class="proj-title">
+                            <a href="https://abhishek9214.github.io/playWithRectangles/" target="_blank">
+                                <i class="fas fa-link" style="font-size: 20px; color: #07C1E4;"></i>
+                            </a>
+                            <div class="proj-title-middle">
+                                <div class="title-value">
+                                    Play With Rectangles
+                                </div>
+                            </div>
+                            <a href="https://github.com/abhishek9214/playWithRectangles" target="_blank">
+                                <i class="fab fa-github-square" style="color: orange;"></i>
+                            </a>
+                        </div>
+                        <div class="proj-description">
+                            This is a simple paint app, where a user can create rectangles on mouse click and drag. User can also move existing rectangle
+                            around the canvas, delete a rectangle on double click and clear the canvas.
+                            <br>
+                            <b>Technologies: </b>
+                            <br>HTML5, CSS3, Javascript
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+            </div>
+            <div style="text-align: right; color: #950740">
+                <i>more on the way ...</i>
+            </div>
+        </div>
 
+    </section>
+
+    <section class="contact" id="contact">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            class="svgcolor-light">
+            <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+        <h1>contact me</h1>
+        <div class="container-head">
+            <div class="head-quote">
+                If you want to get in touch, speak to me about a project collaboration or just say hi,
+            </div>
+            <div>
+                <input class="contact-form" type="text" name="contact-name" id="contact-name" placeholder="Name" />
+                <input class="contact-form" type="text" name="email" id="email" placeholder="Email ID" />
+                <textarea class="contact-form" placeholder="Your Message" type="text" name="message" id="message" placeholder="Your Message"></textarea>
+                <input class="contact-button" type="submit" id="submit" value="SUBMIT">
+            </div>
+            <div class="head-quote-bottom">
+                I'm also available for work !!
+            </div>
+        </div>
     </section>
 
     <footer>

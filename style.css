@@ -157,7 +157,7 @@ nav {
     width: auto;
     margin: 0 15px 0 0;
     padding-top: 4px;
-    transition: height 0.2s;
+    transition: height 0.4s;
 }
 
 .sticky .social-connect {
@@ -170,7 +170,7 @@ nav {
 footer {
     background-color: #404040;
     color: #eee;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 5px;
     font-size: 14px;
     text-align: center;
@@ -201,7 +201,8 @@ footer {
 }
 
 .copyright {
-    font-size: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
 }
 
 .copyright a:hover{
@@ -269,9 +270,113 @@ footer {
     background-color: #950740;
     padding: 2.5px 0;
     padding-left: 5px;
+    border-right: 1px solid #eee;
 }
 
 .skill-percent{
     display: inline-block;
     text-align: right;
+}
+
+/** portfolio **/
+.portfolio-head{
+    font-size: 0.9em;
+    font-weight: 400;
+    border-bottom: 1px solid #4d4d4d;
+    margin-bottom: 10px;
+}
+
+.proj-container {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.8em;
+}
+
+.proj-image {
+    width: 315px;;
+    height: auto;
+}
+
+.proj-title-middle {
+    width: 250px;
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif,Arial;
+}
+
+.title-value {
+    display: block;
+    text-align: center;
+}
+
+.proj-description {
+    text-align: justify;
+    padding: 5px 15px;
+}
+
+.proj-container i {
+    font-size: 24px
+}
+
+/** contact **/
+.contact {
+    font-size: 1em;
+    margin-top: 2.5em;
+    background-color: #1A1A1D;
+}
+
+.contact h1 {
+    font-size: 1.4em;
+    padding-top: 0px;
+    margin-top: 5px;
+    color: #eee;
+}
+
+.container-head {
+    text-align: center;
+    align-items: center;
+}
+
+.head-quote, .head-quote-bottom {
+    font-weight: 400;
+    color: #950740;
+}
+
+textarea {
+    min-height: 150px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.contact-form {
+    display: block;
+    width: 350px;
+    margin: 5px auto;
+    background-color: #4e4e50;
+    border-style: none;
+    padding: 5px;
+}
+
+.contact-button {
+    background: transparent;
+    padding: 5px;
+    color: #eee;
+    margin-bottom: 10px;
+    width: 100px;
+    border-style: none;
+    border: 1px solid #eee;
+}
+
+.contact-button:hover {
+    border-color: #e7717d;
+    background-color: #e7717d;
+}
+
+.contact-button:active {
+    border-color: #950740;
+    background-color: #950740;
+}
+
+.head-quote-bottom {
+    padding-bottom: 10px;
 }
