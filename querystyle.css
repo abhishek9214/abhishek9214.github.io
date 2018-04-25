@@ -57,6 +57,11 @@
 
     header {
         background-image: url(images/header-001-sm.jpg);
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        height:600px;
+        background-attachment: fixed;
     }
     
     .intro{
@@ -76,6 +81,7 @@
 
     nav {
         font-size: 15px;
+        padding: 5px 0;
     }
 
     .nav-items-list a {
@@ -113,5 +119,17 @@
     .contact-form {
         margin: 10px auto;
         width: 95%;
+    }
+
+    .sticky .social-connect{
+        padding-top: 0.2em;
+    }
+
+    .sticky .logo {
+        margin: 0 5px 0 0;
+    }
+
+    .proj-title-middle {
+        width: 200px;
     }
 }
