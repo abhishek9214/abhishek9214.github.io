@@ -42,5 +42,10 @@ $(document).ready(() => {
         }
     },{
         offset: '450px'
-    })
+    });
+
+
+    // $('.js-clickAbout').click(function() {
+    //     $('html,body').animate({scrollTop: $('.js--about').offset.top}, 1000)
+    // });
 });

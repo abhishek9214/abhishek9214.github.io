@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Abhishek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm s Full Stack developer with a keen to learn new Skills and Technologies. I enjoy creating simple, beautiful, intuitive designs and dynamic user experiences for complex problems. And new challenges always put a smile on my face">
+
+    <title>Abhishek Kumar</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400|Lato:300,400" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
@@ -34,11 +36,11 @@
                     <div class="col-sm-8">
                         <div class="d-flex align-items-center small-display-8">
                             <a href="https://abhishek9214.github.io">
-                                <img class="logo" src="images/header-logoImg.jpg" />
+                                <img class="logo" src="images/header-logoImg.jpg" alt="home-icon" />
                             </a>
                             <ul class="nav-items-list">
                                 <li>
-                                    <a class="navigation-items" href="#about">About</a>
+                                    <a class="navigation-items js-clickAbout" href="#about">About</a>
                                 </li>
                                 <li>
                                     <a class="navigation-items" href="#portfolio">Portfolio</a>
@@ -279,7 +281,7 @@
                 <div class="col-md-6">
                     <div class="proj-container">
                         <div>
-                            <img class="proj-image" src="images/proj-playWithRectangles.gif">
+                            <img class="proj-image" src="images/proj-playWithRectangles.gif" alt="play with rectangles">
                         </div>
                         <div class="proj-title">
                             <a href="https://abhishek9214.github.io/playWithRectangles/" target="_blank">
@@ -325,7 +327,7 @@
             <div>
                 <input class="contact-form" type="text" name="contact-name" id="contact-name" placeholder="Name" />
                 <input class="contact-form" type="text" name="email" id="email" placeholder="Email ID" />
-                <textarea class="contact-form" type="text" name="message" id="message" placeholder="Your Message"></textarea>
+                <textarea class="contact-form" name="message" id="message" placeholder="Your Message"></textarea>
                 <input class="contact-button" type="submit" id="submit" value="SUBMIT">
             </div>
             <div class="head-quote-bottom">
@@ -350,6 +352,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="vendor/js/waypoints.min.js"></script>
     <script src="script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118590837-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118590837-1');
+    </script>
+
 </body>
 
 </html>
