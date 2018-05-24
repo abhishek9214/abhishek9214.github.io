@@ -55,7 +55,7 @@
         font-size: 16px;
     }
 
-    header {
+    header::before {
         background-image: url(images/header-001-sm.jpg);
         background-size: contain;
         background-position: top;
