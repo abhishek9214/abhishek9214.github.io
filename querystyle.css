@@ -57,7 +57,7 @@
 
     header {
         background-image: url(images/header-001-sm.jpg);
-        background-size: cover;
+        background-size: contain;
         background-position: top;
         width: 100%;
         height:auto;
@@ -137,7 +137,7 @@
     .about-me .left {
         background-image: -webkit-gradient(linear,right top, left top,from(rgba(255, 255, 255, 0.2)),to(rgb(255, 255, 255,1))),url(images/about-me-sm.jpg);
         background-image: linear-gradient(-90deg,rgba(255, 255, 255, 0.2),rgb(255, 255, 255,1)),url(images/about-me-sm.jpg);
-        background-size: cover;
+        background-size: contain;
         background-position: right;
         width: 100%;
         height: auto;
