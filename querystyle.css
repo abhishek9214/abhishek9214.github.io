@@ -57,9 +57,9 @@
 
     header {
         background-image: url(images/header-001-sm.jpg);
-        /* background-size: contain; */
+        background-size: contain;
         background-position: top;
-        width: 100%;
+        width: auto;
         height:100%;
         background-attachment: fixed;
         z-index: -1;
