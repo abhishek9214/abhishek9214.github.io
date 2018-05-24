@@ -21,7 +21,7 @@ $(document).ready(() => {
             });
             $('.resume-download').css({
                 'border': '2px solid rgba(64,64,64)',
-                'color': 'rgba(64,64,64)',
+                'color': '#404040',
                 'background-color': 'rgba(255,255,255,0.7)',
                 'transition': 'border 0.2s, color 0.2s, background-color 0.2s, padding 0.2s'
             });
