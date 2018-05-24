@@ -133,4 +133,13 @@
     .proj-title-middle {
         width: 200px;
     }
+
+    .about-me .left {
+        background-image: -webkit-gradient(linear,right top, left top,from(rgba(255, 255, 255, 0.2)),to(rgb(255, 255, 255,1))),url(images/about-me-sm.jpg);
+        background-image: linear-gradient(-90deg,rgba(255, 255, 255, 0.2),rgb(255, 255, 255,1)),url(images/about-me-sm.jpg);
+        background-size: cover;
+        background-position: right;
+        width: 100%;
+        height:100%;
+    }
 }

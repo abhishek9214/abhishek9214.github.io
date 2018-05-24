@@ -2,7 +2,8 @@
 * {
     margin:0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .clearfix {zoom: 1}
@@ -86,12 +87,14 @@ header {
     background-color: #e67e22;
     border-radius: 15px;
     padding: 0 15px;
+    -webkit-transition: background-color 0.2s, padding 0.2s;
     transition: background-color 0.2s, padding 0.2s;
 }
 
 .resume-download:hover {
     background-color: #fa885b;
     padding: 0 25px;
+    -webkit-transition: background-color 0.2s, padding 0.2s;
     transition: background-color 0.2s, padding 0.2s;
 }
 
@@ -106,6 +109,7 @@ nav {
     width: auto;
     border-radius: 50%;
     margin: -40px 15px -40px 0px;
+    -webkit-transition: height 0.2s;
     transition: height 0.2s;
 }
 
@@ -117,6 +121,7 @@ nav {
 .nav-items-list li {
     display: inline-block;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
     padding: 5px 0;
 }
@@ -139,8 +144,10 @@ nav {
 
 .social-connect-links i:hover {
     color: #e67e22;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
     font-size: 22px;
+    -webkit-transition: font-size 0.2s;
     transition: font-size 0.2s;
 }
 
@@ -167,6 +174,7 @@ nav {
     width: auto;
     margin: 0 15px 0 0;
     padding-top: 4px;
+    -webkit-transition: height 0.4s;
     transition: height 0.4s;
 }
 
@@ -226,6 +234,7 @@ footer {
 }
 
 .about-me .left {
+    background-image: -webkit-gradient(linear,right top, left top,from(rgba(255, 255, 255, 0.2)),to(rgb(255, 255, 255,1))),url(images/about-me.jpg);
     background-image: linear-gradient(-90deg,rgba(255, 255, 255, 0.2),rgb(255, 255, 255,1)),url(images/about-me.jpg);
     background-size: cover;
     background-position: right;
@@ -344,7 +353,9 @@ footer {
 
 .container-head {
     text-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .head-quote, .head-quote-bottom {
